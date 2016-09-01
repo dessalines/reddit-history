@@ -31,7 +31,7 @@ subreddit: [AskReddit](https://reddit.com/r/AskReddit)
 
 
 ### Download
-[download link]()
+[Download reddit-history.jar](https://github.com/tchoulihan/reddit-history/releases/download/0.0.2/reddit-history.jar)
 
 ### Run 
 
