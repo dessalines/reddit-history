@@ -43,7 +43,7 @@ public class App {
     @Option(name="-user", usage="The user you want to query", required = true)
     private String user;
 
-    @Option(name="-sort", usage="The sort order (default top, new)")
+    @Option(name="-sort", usage="The sort order (top, new)")
     private String sort = "top";
 
     public static final ObjectMapper MAPPER = new ObjectMapper();
@@ -67,10 +67,10 @@ public class App {
 
     public static void fetcher(String accessToken, String user, String endpoint, String sort) throws Exception {
 
-        String after = null;
         File saveFile = new File("reddit_history", "reddit_" + user + "_" + endpoint + "_" + sort + ".md");
         log.info("file: " + saveFile.getAbsolutePath());
 
+        String after = null;
         int i = 0;
         while (after != null || i == 0) {
             JsonNode node = fetchJson(accessToken, user, endpoint, sort, after);
@@ -226,9 +226,7 @@ public class App {
         CmdLineParser parser = new CmdLineParser(this);
 
         try {
-
             parser.parseArgument(args);
-
         } catch (CmdLineException e) {
             // if there's a problem in the command line,
             // you'll get this exception. this will report
@@ -239,7 +237,6 @@ public class App {
             parser.printUsage(System.err);
             System.err.println();
             System.exit(0);
-
 
             return;
         }
