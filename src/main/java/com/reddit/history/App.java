@@ -60,7 +60,7 @@ public class App {
         String accessToken = getAccessToken(username, password, clientId, clientSecret);
 
         for (String saveType : SAVE_TYPES) {
-            fetcher(accessToken, username, saveType, sort);
+            fetcher(accessToken, user, saveType, sort);
         }
 
     }
