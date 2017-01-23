@@ -1,6 +1,6 @@
 Reddit-History &mdash; A reddit account history exporter
 ========================================================
-![](http://img.shields.io/version/0.0.2.png?color=green)
+![](http://img.shields.io/version/0.0.3.png?color=green)
 
 Reddit-History is a reddit history account exporter. It exports your comments, saved threads, submitted posts, and account overview to an organized markdown file, of the format:
 ```md
@@ -31,7 +31,7 @@ subreddit: [AskReddit](https://reddit.com/r/AskReddit)
 
 
 ### Download
-[Download reddit-history.jar](https://github.com/tchoulihan/reddit-history/releases/download/0.0.2/reddit-history.jar)
+[Download reddit-history.jar](https://github.com/tchoulihan/reddit-history/releases/download/0.0.3/reddit-history.jar)
 
 ### Run 
 
