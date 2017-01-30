@@ -36,7 +36,7 @@ subreddit: [AskReddit](https://reddit.com/r/AskReddit)
 ### Run 
 
 ```sh
-java -jar reddit_history.jar -user USER_NAME_TO_EXPORT -username YOUR_USERNAME -password YOUR_PASSWORD -client_id CLIENT_ID -client_secret CLIENT_SECRET -sort new
+java -jar reddit-history.jar -user USER_NAME_TO_EXPORT -username YOUR_USERNAME -password YOUR_PASSWORD -client_id CLIENT_ID -client_secret CLIENT_SECRET -sort new
 ```
 `sort` can be `top`, or `new`. 
 
